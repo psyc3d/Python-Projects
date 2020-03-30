@@ -1,0 +1,13 @@
+The model divides the population into three compartments. For each location i at time t, the three compartments are as follows:
+
+Si,t: the number of individuals not yet infected or susceptible to the disease.
+
+Ii,t: the number of individuals infected with the disease and capable of spreading the disease to those in the susceptible group.
+
+Ri,t: the number of individuals who have been infected and then removed from the infected group, either due to recovery or due to death. 
+        Individuals in this group are not capable of contracting the disease again or transmitting the infection to others.
+
+In our simulations, time will be a discrete variable as the state of the system is modelled at a daily basis. 
+
+In a fully susceptible population at location j at time t, an outbreak happens with probability:
+
